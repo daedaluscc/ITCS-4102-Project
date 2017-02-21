@@ -1,2 +1,2 @@
 # ITCS-4102-Project
-This repository 
+This repository is for ITCS 4102 Final Project.
