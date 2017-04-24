@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50bb8513-6d3e-4dfd-8a21-3f8c47616fb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ITCS-4102-Project.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/darwin/ITCS-4102-Project.app/Contents/MacOS/ITCS-4102-Project" afterPath="$PROJECT_DIR$/deploy/darwin/ITCS-4102-Project.app/Contents/MacOS/ITCS-4102-Project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TicTacGo.go" afterPath="$PROJECT_DIR$/TicTacGo.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
       <file leaf-file-name="TicTacGo.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TicTacGo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="193" column="99" lean-forward="false" selection-start-line="193" selection-start-column="99" selection-end-line="193" selection-end-column="99" />
+            <state relative-caret-position="505">
+              <caret line="213" column="21" lean-forward="false" selection-start-line="213" selection-start-column="21" selection-end-line="213" selection-end-column="21" />
               <folding>
                 <element signature="e#14#97#0" expanded="true" />
               </folding>
@@ -202,7 +200,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/TicTacGo.go</url>
-          <line>150</line>
+          <line>151</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -219,8 +217,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TicTacGo.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="193" column="99" lean-forward="false" selection-start-line="193" selection-start-column="99" selection-end-line="193" selection-end-column="99" />
+        <state relative-caret-position="505">
+          <caret line="213" column="21" lean-forward="false" selection-start-line="213" selection-start-column="21" selection-end-line="213" selection-end-column="21" />
           <folding>
             <element signature="e#14#97#0" expanded="true" />
           </folding>

@@ -27,6 +27,7 @@ type MWindow struct{
 
 
 var application App
+var buttonArrays []interface{}
 
 func main()  {
 
@@ -41,7 +42,7 @@ func main()  {
 }
 
 func NewGrid() {
-
+	buttonArrays = make([]interface{}, 9)
 
 	window := widgets.NewQMainWindow(nil, 0)
 	window.SetWindowTitle("Tic Tac Go")
@@ -178,7 +179,15 @@ func NewGrid() {
 	layoutC2.AddWidget(button22, 0, core.Qt__AlignTrailing)
 
 
-
+	buttonArrays[0] = *button00
+	buttonArrays[1] =  *button01
+	buttonArrays[2] =  *button02
+	buttonArrays[3] = *button10
+	buttonArrays[4] =  *button11
+	buttonArrays[5] = *button12
+	buttonArrays[6] =  *button20
+	buttonArrays[7] =  *button21
+	buttonArrays[8] =  *button22
 
 	layout.AddLayout(layoutC2, 1)
 
@@ -187,20 +196,28 @@ func NewGrid() {
 
 
 }
+func reset(){
+	for i := 0; i < len(buttonArrays); i++{
+		value := buttonArrays[i].(widgets.QPushButton)
+		value.SetText("")
+		value.SetEnabled(true)
+	}
+
+}
 
 
 func popup(winner string) {
 
 	message := widgets.NewQMessageBox2(widgets.QMessageBox__NoIcon, "Game Over", winner + "won.", widgets.QMessageBox__Ok, nil, 0)
-	//message.AddButton3(widgets.QMessageBox__Ok  )
+	message.AddButton3(widgets.QMessageBox__Cancel  )
 	rtn := message.Exec()
 	switch  rtn {
 	case 1024:
 		//repopulate here
-		application.QuitDefault()
+		reset()
 	case 4194304:
 		//exit here
-
+		application.QuitDefault()
 	}
 
 }
